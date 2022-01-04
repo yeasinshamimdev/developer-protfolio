@@ -14,13 +14,14 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    margin-top: 20px;
 }
 .half-width img{
     width: 80%;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(0, 175, 52), rgb(84, 139, 59));
+    background-image: linear-gradient(#00ff4c, #9bf870);
     padding: 10px 40px;
     font-size: 700;
     color: white;
@@ -29,4 +30,9 @@ section{
 .top-bannar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
